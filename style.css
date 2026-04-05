@@ -736,7 +736,7 @@ a.contact-value:hover { color: var(--gold); }
 
 .team-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 0.7fr;
   gap: 3rem;
   margin-top: 3.5rem;
   align-items: center;
