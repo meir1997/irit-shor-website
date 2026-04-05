@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>בלוג | אירית שור</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-256.png" sizes="256x256" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">אירית שור</a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">אודות</a></li>
+        <li><a href="index.html#services">שירותים</a></li>
+        <li><a href="index.html#projects">פרויקטים</a></li>
+        <li><a href="index.html#team">צוות</a></li>
+        <li><a href="blog.html" class="active">בלוג</a></li>
+        <li><a href="index.html#contact" class="nav-cta">ייעוץ ראשוני</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- BLOG HEADER -->
+  <section class="blog-header">
+    <div class="container">
+      <p class="section-eyebrow center">הבלוג</p>
+      <h1 class="section-title center">מאמרים וטיפים <span class="gold">מהשטח</span></h1>
+    </div>
+  </section>
+
+  <!-- BLOG POSTS -->
+  <section class="blog-posts">
+    <div class="container">
+      <div class="blog-grid">
+
+        <a href="blog-post-1.html" class="blog-card">
+          <div class="blog-card-body">
+            <span class="blog-date">כותרת לדוגמה</span>
+            <h2 class="blog-card-title">כותרת מאמר ראשון</h2>
+            <p class="blog-card-excerpt">תקציר קצר של המאמר יופיע כאן. שורה או שתיים שמסבירות על מה המאמר.</p>
+            <span class="blog-read-more">קראו עוד &larr;</span>
+          </div>
+        </a>
+
+        <a href="blog-post-2.html" class="blog-card">
+          <div class="blog-card-body">
+            <span class="blog-date">כותרת לדוגמה</span>
+            <h2 class="blog-card-title">כותרת מאמר שני</h2>
+            <p class="blog-card-excerpt">תקציר קצר של המאמר יופיע כאן. שורה או שתיים שמסבירות על מה המאמר.</p>
+            <span class="blog-read-more">קראו עוד &larr;</span>
+          </div>
+        </a>
+
+        <a href="blog-post-3.html" class="blog-card">
+          <div class="blog-card-body">
+            <span class="blog-date">כותרת לדוגמה</span>
+            <h2 class="blog-card-title">כותרת מאמר שלישי</h2>
+            <p class="blog-card-excerpt">תקציר קצר של המאמר יופיע כאן. שורה או שתיים שמסבירות על מה המאמר.</p>
+            <span class="blog-read-more">קראו עוד &larr;</span>
+          </div>
+        </a>
+
+        <a href="blog-post-4.html" class="blog-card">
+          <div class="blog-card-body">
+            <span class="blog-date">כותרת לדוגמה</span>
+            <h2 class="blog-card-title">כותרת מאמר רביעי</h2>
+            <p class="blog-card-excerpt">תקציר קצר של המאמר יופיע כאן. שורה או שתיים שמסבירות על מה המאמר.</p>
+            <span class="blog-read-more">קראו עוד &larr;</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-name">אירית שור</span>
+        </div>
+        <p class="footer-copy">© 2025 אירית שור. כל הזכויות שמורות.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+  </script>
+</body>
+</html>
