@@ -27,6 +27,25 @@ function toggleProjects() {
   btn.textContent = extra.classList.contains('show') ? 'הסתר פרויקטים' : 'פרויקטים נוספים';
 }
 
+// About modal
+function openAboutMore() {
+  document.getElementById('aboutModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeAboutMore() {
+  document.getElementById('aboutModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('aboutModal').addEventListener('click', function(e) {
+  if (e.target === this) closeAboutMore();
+});
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeAboutMore();
+});
+
 // Form submit
 function handleSubmit(e) {
   e.preventDefault();
