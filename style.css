@@ -151,6 +151,27 @@ a { text-decoration: none; color: inherit; }
   color: var(--gold);
 }
 
+.btn-secondary {
+  display: inline-block;
+  background: transparent;
+  color: var(--gold);
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 0.9rem 2.2rem;
+  border: 2px solid var(--gold);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition), transform var(--transition);
+  margin-top: 1.5rem;
+}
+
+.btn-secondary:hover {
+  background: var(--gold);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
 /* ===== HERO ===== */
 .hero {
   position: relative;
@@ -386,6 +407,57 @@ a { text-decoration: none; color: inherit; }
   color: var(--gold);
   font-size: 0.65rem;
   flex-shrink: 0;
+}
+
+/* ===== ABOUT MORE ===== */
+.about-more {
+  display: none;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--border);
+}
+
+.about-more.open {
+  display: block;
+}
+
+.about-more-section {
+  margin-bottom: 3rem;
+}
+
+.about-more-title {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.about-more-bio {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr;
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 3rem;
+}
+
+.about-more-bio-img {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.about-more-bio-img img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.about-cta-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--gold);
+}
+
+@media (max-width: 960px) {
+  .about-more-bio { grid-template-columns: 1fr; }
+  .about-more-bio-img { max-width: 350px; }
 }
 
 /* ===== SERVICES ===== */

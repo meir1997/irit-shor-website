@@ -27,6 +27,14 @@ function toggleProjects() {
   btn.textContent = extra.classList.contains('show') ? 'הסתר פרויקטים' : 'פרויקטים נוספים';
 }
 
+// About more toggle
+function toggleAboutMore() {
+  const section = document.getElementById('about-more');
+  const btn = document.querySelector('.about-more-btn');
+  section.classList.toggle('open');
+  btn.textContent = section.classList.contains('open') ? 'סגור' : 'עוד על אירית שור';
+}
+
 // Form submit
 function handleSubmit(e) {
   e.preventDefault();
