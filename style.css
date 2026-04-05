@@ -546,8 +546,8 @@ a { text-decoration: none; color: inherit; }
 
 /* ===== BLOG PREVIEW ===== */
 .blog-preview {
-  padding: 7rem 0;
-  background: var(--bg-2);
+  padding: 9rem 0 7rem;
+  background: var(--bg);
 }
 
 .blog-preview-grid {
