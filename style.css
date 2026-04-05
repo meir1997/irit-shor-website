@@ -501,6 +501,7 @@ a { text-decoration: none; color: inherit; }
 .trust-strip {
   background: var(--gold);
   padding: 3rem 0;
+  margin-bottom: 4rem;
 }
 .trust-title {
   font-size: clamp(1.15rem, 2.5vw, 1.65rem);
