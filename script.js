@@ -4,6 +4,19 @@ window.addEventListener('scroll', () => {
   nav.classList.toggle('scrolled', window.scrollY > 50);
 });
 
+// Mobile menu toggle
+function toggleMenu() {
+  document.querySelector('.nav-links').classList.toggle('open');
+  document.querySelector('.menu-toggle').classList.toggle('open');
+}
+
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelector('.nav-links').classList.remove('open');
+    document.querySelector('.menu-toggle').classList.remove('open');
+  });
+});
+
 // Smooth animate-in on scroll
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
