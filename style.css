@@ -817,6 +817,19 @@ a.contact-value:hover { color: var(--gold); }
   line-height: 1.75;
 }
 
+.team-email {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--gold);
+  text-decoration: none;
+  direction: ltr;
+}
+
+.team-email:hover {
+  text-decoration: underline;
+}
+
 .team-card--text {
   display: flex;
   align-items: center;
