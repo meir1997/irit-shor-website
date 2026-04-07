@@ -938,20 +938,6 @@ a.contact-value:hover { color: var(--gold); }
   display: grid;
 }
 
-.project-group-title {
-  text-align: center;
-  color: var(--gold);
-  font-size: 1.1rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  margin-top: 3rem;
-  margin-bottom: 1.2rem;
-}
-
-.project-group-title:first-of-type {
-  margin-top: 0;
-}
-
 .projects-toggle {
   display: block;
   margin: 2rem auto 0;
