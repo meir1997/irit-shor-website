@@ -665,10 +665,11 @@ a { text-decoration: none; color: inherit; }
 
 .booking-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 2rem;
   margin-top: 3rem;
-  max-width: 720px;
+  max-width: 420px;
+  justify-items: center;
   margin-left: auto;
   margin-right: auto;
 }
