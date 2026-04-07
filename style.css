@@ -969,36 +969,6 @@ a.contact-value:hover { color: var(--gold); }
   display: block;
 }
 
-.team-gallery-scroll {
-  margin-top: 3rem;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
-  scrollbar-color: var(--gold) transparent;
-}
-
-.team-gallery-scroll::-webkit-scrollbar {
-  height: 6px;
-}
-
-.team-gallery-scroll::-webkit-scrollbar-thumb {
-  background: var(--gold);
-  border-radius: 3px;
-}
-
-.team-gallery-track {
-  display: flex;
-  gap: 0.75rem;
-  padding-bottom: 0.5rem;
-}
-
-.team-gallery-track img {
-  height: 280px;
-  width: auto;
-  border-radius: var(--radius);
-  object-fit: cover;
-  flex-shrink: 0;
-}
 
 .team-members-side {
   display: flex;
