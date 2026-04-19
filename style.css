@@ -1392,3 +1392,9 @@ a.contact-value:hover { color: var(--gold); }
   .project-item--large { grid-column: span 1; aspect-ratio: 4/3; }
   .team-layout { grid-template-columns: 1fr; }
 }
+
+@media (max-width: 600px) {
+  section, .about, .services, .process, .press, .booking, .contact, .projects, .team, .blog-preview {
+    padding: 4rem 0 !important;
+  }
+}
