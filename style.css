@@ -582,6 +582,9 @@ a { text-decoration: none; color: inherit; }
   .clients-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .client-logo { height: 90px; padding: 1.5rem; }
 }
