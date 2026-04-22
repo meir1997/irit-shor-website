@@ -571,7 +571,7 @@ a { text-decoration: none; color: inherit; }
   display: block;
 }
 .client-logo img[src*="zahala"] {
-  transform: scale(1.6);
+  transform: scale(1.3);
 }
 .client-logo.client-text {
   font-weight: 700;
