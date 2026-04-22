@@ -570,6 +570,9 @@ a { text-decoration: none; color: inherit; }
   margin: auto;
   display: block;
 }
+.client-logo img[src*="zahala"] {
+  transform: scale(1.6);
+}
 .client-logo.client-text {
   font-weight: 700;
   color: var(--gold);
