@@ -8,11 +8,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="a11y.css" />
   <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="favicon-256.png" sizes="256x256" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
 <body>
+  <a href="#main-content" class="skip-link">דלג לתוכן הראשי</a>
 
   <!-- NAV -->
   <nav class="nav" id="nav">
@@ -31,6 +33,8 @@
       </ul>
     </div>
   </nav>
+
+  <main id="main-content" tabindex="-1">
 
   <!-- BLOG HEADER -->
   <section class="blog-header">
@@ -86,13 +90,15 @@
   </section>
 
   <!-- FOOTER -->
+  </main>
+
   <footer class="footer">
     <div class="container">
       <div class="footer-inner">
         <div class="footer-brand">
           <span class="footer-name">אירית שור</span>
         </div>
-        <p class="footer-copy">© 2025 אירית שור. כל הזכויות שמורות.</p>
+        <p class="footer-copy">© 2025 אירית שור. כל הזכויות שמורות. · <a href="negishut.html" style="color:inherit;text-decoration:underline;">הצהרת נגישות</a></p>
       </div>
     </div>
   </footer>
