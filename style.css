@@ -2,13 +2,13 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --gold: #B8963E;
+  --gold: #7A5A14;
   --gold-light: #D4AE5A;
   --gold-bg: #F5EDD8;
   --dark: #1A1208;
   --dark-2: #2C1F08;
   --text: #2C2416;
-  --text-muted: #7A6E5F;
+  --text-muted: #665B4F;
   --bg: #FAFAF7;
   --bg-2: #F4F1EB;
   --bg-3: #EDE8DF;
@@ -717,8 +717,9 @@ a { text-decoration: none; color: inherit; }
 }
 
 .booking .section-eyebrow {
-  color: var(--gold);
+  color: #e8c978;
 }
+.booking .gold { color: #e8c978; }
 
 .booking .section-title {
   color: var(--white);
@@ -914,8 +915,9 @@ a.contact-value:hover { color: var(--gold); }
 }
 .footer-copy {
   font-size: 0.75rem;
-  color: rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.78);
 }
+.footer-copy a { color: #fff !important; }
 
 /* ===== PROJECTS GALLERY ===== */
 .projects {
@@ -1138,8 +1140,9 @@ a.contact-value:hover { color: var(--gold); }
   color: var(--white);
 }
 
-.blog-header .section-eyebrow {
-  color: var(--gold);
+.blog-header .section-eyebrow,
+.blog-header .gold {
+  color: #e8c978;
 }
 
 .blog-posts {
@@ -1240,7 +1243,7 @@ a.contact-value:hover { color: var(--gold); }
 .blog-post-meta {
   margin-top: 1.2rem;
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.5);
+  color: #665b4f;
 }
 
 .blog-post-body {
@@ -1253,6 +1256,7 @@ a.contact-value:hover { color: var(--gold); }
   margin: 0 auto;
 }
 
+.blog-post-content h2,
 .blog-post-content h3 {
   font-size: 1.3rem;
   font-weight: 800;
